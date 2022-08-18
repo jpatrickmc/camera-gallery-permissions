@@ -23,6 +23,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Text>How could an Alert be displayed here?</Text>
       <Text style={styles.labels}>
         {hasCameraPermission ? "Camera : Granted" : "Camera : Denied"}
       </Text>
